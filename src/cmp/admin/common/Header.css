@@ -1,0 +1,131 @@
+/* Dashboard.css */
+
+thead {
+    background: rgb(38,113,206);
+    color: rgb(255,255,255)!important;
+    text-align: center !important;
+    padding: 10px 5px !important;
+    line-height: 1.2 !important;
+    border: 1px solid rgb(3,52,112)!important;
+    vertical-align: middle;
+    font-size: 0.80rem !important;
+    border:1px solid black !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 10px;
+  }
+  
+  #add_vbtn {
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    z-index: 1000;
+  }
+  
+  #add_vbtn::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  
+  #add_vbtn:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  
+  #add_vbtn:active {
+    background-color: #555;
+  }
+  
+  .my-table-create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mytabledesing thead th {
+    color: #fff !important;
+    padding: 9px;
+    text-align: center;                           
+  }
+  
+  #sort_fileds {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  
+  tfoot {
+    color: #fff !important;
+    padding: 9px;
+    text-align: center; 
+  }
+  
+  .mytabledesing th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  .mytabledesing td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  /* Styles for the content section */
+  
+  /* loader */
+  .pageloader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    /* background: url('dist/img/loader.gif') 50% 50% no-repeat rgb(249, 249, 249); */
+    opacity: .8;
+  }
+  
+
+  .my_border_top
+  {
+  border-top: 8px solid #3794bf !important;
+  border-top-left-radius: 8px !important;
+  -moz-border-top-left-radius: 8px !important;
+  -webkit-border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  -moz-border-top-right-radius: 8px !important;
+  -webkit-border-top-right-radius: 8px !important;
+  }
+  .my_background_color {
+    background: #3794bf !important;
+  }
+  .test{border:2px solid red;}
+  .p-show-icon{
+    position: absolute;
+    right: 45px;
+    margin-top: -29px;
+    color:#ccc;
+    z-index:1;
+    cursor:pointer;
+  }
